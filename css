@@ -1,0 +1,42 @@
+body {
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.caixa {
+    text-align: center;
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Número em destaque */
+#contador {
+    font-size: 80px;
+    color: #333;
+    margin-top: 0;
+}
+
+/* Botão com efeito hover */
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s; /* Para o hover não ser seco */
+}
+
+button:hover {
+    background-color: #0056b3; /* Escurece um pouco */
+    transform: translateY(-2px); /* Dá um leve pulinho */
+}
+
